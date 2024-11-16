@@ -1,0 +1,21 @@
+<!-- upload.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Upload Photo</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <h2>Upload Classroom Photo</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="photos">Upload Class Photos:</label>
+        <input type="file" name="photos" multiple accept="image/*" required>
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+    
+</body>
+</html>
